@@ -8,8 +8,8 @@ services:
     ports:
       - "3306:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: amine143
-      MYSQL_DATABASE: Qore2024DB
+      MYSQL_ROOT_PASSWORD: AMINEGOIRECH
+      MYSQL_DATABASE: DBNAME
     volumes:
       - ./data:/var/lib/mysql
 
